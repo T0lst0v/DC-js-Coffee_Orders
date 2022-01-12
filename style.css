@@ -1,3 +1,8 @@
+html,
+body {
+  width: 100%;
+}
+
 body {
   background-color: mintcream;
   font-family: "Cabin", sans-serif;
@@ -10,7 +15,43 @@ h1 {
 h2 {
   font-family: "Merriweather", serif;
 }
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
 
+  align-items: center;
+}
+#formAdd > * {
+  margin: 10px;
+}
+#formAdd {
+  position: static;
+  display: none;
+  width: 320px;
+
+  text-align: right;
+}
+button {
+  width: 100%;
+  padding: 4px;
+}
+#email,
+#inputSearch {
+  width: 200px;
+}
+#btnSubmit,
+#btnFind {
+  width: auto;
+  position: relative;
+  border-radius: 6px;
+  border: none;
+  width: 80px;
+}
+select {
+  width: 208px;
+}
 #formAdd {
   margin: 10px;
   display: none;
@@ -22,4 +63,9 @@ h2 {
 }
 #itemList {
   display: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
 }

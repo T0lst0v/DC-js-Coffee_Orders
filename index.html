@@ -21,56 +21,56 @@
 <body>
 
 
-    <div id="mainContainer"></div>
-    <h1>Coffee Order</h1>
+    <div id="mainContainer">
+        <h1>Coffee Order</h1>
 
 
-    <button id='btnNewOrder'>New Order</button><br>
+        <button id='btnNewOrder'>New Order</button><br>
 
 
-    <div id="formAdd">
+        <div id="formAdd">
 
-        <label for="email">Email</label>
-        <input type="text" id="email">
-        <br><br>
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <br>
 
-        <label for="coffee">Coffee</label>
-        <select id="type" class="required">
-            <option selected="" value="">Choose one</option>
-            <option>Black</option>
-            <option>Cappuccino</option>
-            <option>Latte</option>
-            <option>Espresso</option>
-        </select>
-        <br><br>
+            <label for="coffee">Coffee</label>
+            <select id="type" class="required">
+                <option selected="" value="">Choose one</option>
+                <option>Black</option>
+                <option>Cappuccino</option>
+                <option>Latte</option>
+                <option>Espresso</option>
+            </select>
+            <br>
 
-        <label for="coffee">Size</label>
-        <select id="size" class="required">
-            <option select="" value="">What Size</option>
-            <option>Small</option>
-            <option>Medium</option>
-            <option>Large</option>
-        </select>
-        <p id="price"> </p>
-        <br>
-        <button id='btnSubmit'> Submit</button>
+            <label for="coffee">Size</label>
+            <select id="size" class="required">
+                <option select="" value="">What Size</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+            <p id="price"> </p>
 
+            <button id='btnSubmit'> Submit</button>
+
+        </div>
+
+        <button id=btnSearch>Search Order</button><br>
+
+
+        <div id='formSearch'>
+            <input type="text" placeholder="Enter Email" id='inputSearch'>
+            <button id="btnFind">find</button>
+        </div>
+        <ul id="itemList"></ul>
+        <button id="btnDisplayAll">Display All</button>
+
+        <ul id='displayAllContainer'>
+
+        </ul>
     </div>
-
-    <button id=btnSearch>Search Order</button><br>
-
-
-    <div id='formSearch'>
-        <input type="text" placeholder="Enter Email" id='inputSearch'>
-        <button id="btnFind">find</button>
-    </div>
-    <ul id="itemList"></ul>
-    <button id="btnDisplayAll">Display All</button><br>
-
-    <ul id='displayAllContainer'>
-
-    </ul>
-
     <script src="app.js"></script>
 </body>
 

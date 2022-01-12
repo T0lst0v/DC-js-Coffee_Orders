@@ -158,7 +158,7 @@ btnSubmit.addEventListener("click", function () {
 btnNewOrder.addEventListener("click", () => {
   console.log(formAdd);
   formSearch.style.display = "none";
-  formAdd.style.display = "block";
+  formAdd.style.display = "inline-block";
 });
 // Display/Hide HTML fields
 btnSearch.addEventListener("click", () => {
