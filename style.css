@@ -1,0 +1,25 @@
+body {
+  background-color: mintcream;
+  font-family: "Cabin", sans-serif;
+}
+
+h1 {
+  font-family: "The Nautigal", cursive;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+}
+
+#formAdd {
+  margin: 10px;
+  display: none;
+  /* display: unset; */
+}
+#formSearch {
+  margin: 10px;
+  display: none;
+}
+#itemList {
+  display: none;
+}

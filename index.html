@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Merriweather:wght@300;400&family=The+Nautigal&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Movie Website</title>
+
+</head>
+
+<body>
+
+
+    <div id="mainContainer"></div>
+    <h1>Coffee Order</h1>
+
+
+    <button id='btnNewOrder'>New Order</button><br>
+
+
+    <div id="formAdd">
+
+        <label for="email">Email</label>
+        <input type="text" id="email">
+        <br><br>
+
+        <label for="coffee">Coffee</label>
+        <select id="type" class="required">
+            <option selected="" value="">Choose one</option>
+            <option>Black</option>
+            <option>Cappuccino</option>
+            <option>Latte</option>
+            <option>Espresso</option>
+        </select>
+        <br><br>
+
+        <label for="coffee">Size</label>
+        <select id="size" class="required">
+            <option select="" value="">What Size</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+        </select>
+        <p id="price"> </p>
+        <br>
+        <button id='btnSubmit'> Submit</button>
+
+    </div>
+
+    <button id=btnSearch>Search Order</button><br>
+
+
+    <div id='formSearch'>
+        <input type="text" placeholder="Enter Email" id='inputSearch'>
+        <button id="btnFind">find</button>
+    </div>
+    <ul id="itemList"></ul>
+    <button id="btnDisplayAll">Display All</button><br>
+
+    <ul id='displayAllContainer'>
+
+    </ul>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
